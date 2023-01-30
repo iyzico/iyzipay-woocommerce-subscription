@@ -175,7 +175,7 @@ class Iyzico_Subscription_For_WooCommerce_Gateway extends WC_Payment_Gateway {
         } else {
             echo 'Not Connection...';
         }
-        echo $requestResponse->tokenExpireTime;
+        //echo $requestResponse->tokenExpireTime;
 
     }
 
