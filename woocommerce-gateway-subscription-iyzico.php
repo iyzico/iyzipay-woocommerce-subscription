@@ -5,7 +5,7 @@
  * Description: iyzico Payment Subscription Gateway for WooCommerce.
  * Author: iyzico
  * Author URI: https://iyzico.com
- * Version: 1.0.0
+ * Version: 1.1.0
  * Text Domain: iyzico Subscription WooCommerce
  * Domain Path: /i18n/languages/
  * WC requires at least: 3.0.0
