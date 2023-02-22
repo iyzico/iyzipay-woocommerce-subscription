@@ -1,5 +1,5 @@
 === iyzico Subscription WooCommerce ===
-Contributors: iyzico,mehmetselim,FeyzullahDemir
+Contributors: iyzico,mehmetselim,Feyzullah
 Tags: payment, ecommerce,credit card,checkout woocommerce,iyzico,wordpress ecommerce
 Tested up to: 6.0
 Stable tag: 2.0.0

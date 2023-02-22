@@ -5,11 +5,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class Iyzico_Subscription_For_WooCommerce_Request {
 
-	
+
 	public function iyzicoCheckoutFormRequest($baseUrl,$json,$authorizationData) {
 
 			$url = $baseUrl.'/payment/iyzipos/checkoutform/initialize/auth/ecom';
-				 
+
 		    return $this->curlPost($json,$authorizationData,$url);
 
 	}
@@ -17,7 +17,7 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 	public function iyzicoSubscriptionRequest($baseUrl,$json,$authorizationData) {
 
 			$url = $baseUrl;
-				 
+
 		    return $this->curlPostV2($json,$authorizationData,$url);
 
 	}
@@ -25,7 +25,7 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 	public function iyzicoSubscriptionRetrieveRequest($baseUrl,$json,$authorizationData) {
 
 			$url = $baseUrl;
-				 
+
 		    return $this->curlGetV2($json,$authorizationData,$url);
 
 	}
@@ -33,7 +33,7 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 	public function iyzicoCheckoutFormDetailRequest($baseUrl,$json,$authorizationData) {
 
 			$url = $baseUrl.'/payment/iyzipos/checkoutform/auth/ecom/detail';
-				 
+
 		    return $this->curlPost($json,$authorizationData,$url);
 
 	}
@@ -67,13 +67,13 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 		}
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 0);
-		curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+		curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_NONE);
 		curl_setopt($curl, CURLOPT_TIMEOUT, 150);
-		
-		curl_setopt(        
+
+		curl_setopt(
 		    $curl, CURLOPT_HTTPHEADER, array(
 		        "Authorization: " .$authorizationData['authorization'],
-		        "x-iyzi-rnd:".$authorizationData['rand_value'], 
+		        "x-iyzi-rnd:".$authorizationData['rand_value'],
 		        "Content-Type: application/json",
 		    )
 		);
@@ -81,7 +81,7 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 		$result = json_decode(curl_exec($curl));
 		curl_close($curl);
 
-		
+
 
 		return $result;
 	}
@@ -96,10 +96,10 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 		}
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 0);
-		curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+		curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_NONE);
 		curl_setopt($curl, CURLOPT_TIMEOUT, 150);
-		
-		curl_setopt(        
+
+		curl_setopt(
 		    $curl, CURLOPT_HTTPHEADER, array(
 		        "Content-Type: application/json",
 		        "Authorization: " .$authorizationData['authorization'],
@@ -109,7 +109,7 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 		$result = json_decode(curl_exec($curl));
 		curl_close($curl);
 
-		
+
 
 		return $result;
 	}
@@ -121,10 +121,10 @@ class Iyzico_Subscription_For_WooCommerce_Request {
 		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET');
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 0);
-		curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+		curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_NONE);
 		curl_setopt($curl, CURLOPT_TIMEOUT, 150);
-		
-		curl_setopt(        
+
+		curl_setopt(
 		    $curl, CURLOPT_HTTPHEADER, array(
 		        "Content-Type: application/json",
 		        "Authorization: " .$authorizationData['authorization'],

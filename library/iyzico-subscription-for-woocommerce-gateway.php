@@ -9,7 +9,7 @@ class Iyzico_Subscription_For_WooCommerce_Gateway extends WC_Payment_Gateway {
     public function __construct() {
 
         $this->id = 'iyzico_subscription';
-        $this->iyziV = '1.0.3';
+        $this->iyziV = '1.1.0';
         $this->method_title = __('iyzico Subscription Pay', 'woocommerce-iyzico-subscription');
         $this->method_description = __('The iyzico subscription API provides the opportunity to quickly create subscriptions to merchants that can receive online payments.','woocommerce-iyzico-subscription');
         $this->has_fields = true;
@@ -175,7 +175,7 @@ class Iyzico_Subscription_For_WooCommerce_Gateway extends WC_Payment_Gateway {
         } else {
             echo 'Not Connection...';
         }
-        //echo $requestResponse->tokenExpireTime;
+        echo $requestResponse->tokenExpireTime;
 
     }
 
