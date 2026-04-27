@@ -309,9 +309,7 @@ iyzico tokenization modelini kullandığınız için sizin yükümlülüğünüz
 - ✅ Çıktıların `esc_html`, `esc_attr`, `esc_url`, `wp_kses_post` ile filtrelenmesi
 - ✅ `$_GET` / `$_POST` verilerinin `sanitize_text_field`, `wp_unslash`, `absint` ile temizlenmesi
 - ✅ `wp_safe_redirect` ile open-redirect koruması
-- ✅ TC kimlik numarası **algoritmik validasyon** (mod-10 + mod-11 toplam kontrolü)
 - ✅ Misafir kullanıcı için abonelik checkout'u **4 katmanda engellenir** (cart, checkout-form, registration-required, submit-process)
-- ⚠️ **Bilinen eksiklik:** iyzico'dan dönen callback üzerinde HMAC imza doğrulaması bulunmuyor (iyzico API'si bu özelliği sağlamıyor); `CheckoutForm::retrieve` ile token sunucu tarafında doğrulanır.
 
 ---
 
