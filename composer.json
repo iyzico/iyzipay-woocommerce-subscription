@@ -1,0 +1,20 @@
+{
+    "name": "iyzico/iyzipay-woocommerce-subscription",
+    "description": "iyzico Subscription for WooCommerce",
+    "type": "wordpress-plugin",
+    "require": {
+        "iyzico/iyzipay-php": "^2.0"
+    },
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Iyzico\\IyzipayWoocommerceSubscription\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iyzico",
+            "email": "entegrasyon@iyzico.com"
+        }
+    ]
+}

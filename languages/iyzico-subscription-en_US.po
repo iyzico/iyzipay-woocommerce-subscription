@@ -1,0 +1,426 @@
+# English (United States) translation for iyzico Subscription for WooCommerce
+# Copyright (C) 2025 iyzico
+msgid ""
+msgstr ""
+"Project-Id-Version: iyzico Subscription for WooCommerce 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/iyzico/iyzipay-woocommerce-subscription/issues\n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: iyzico-subscription\n"
+
+msgid "iyzico Abonelik"
+msgstr "iyzico Subscription"
+
+msgid "iyzico ile düzenli (abonelik) ödeme tahsilatı"
+msgstr "Recurring (subscription) payments via iyzico"
+
+msgid "Aktif/Pasif"
+msgstr "Enable/Disable"
+
+msgid "iyzico ödeme geçidini aktifleştir"
+msgstr "Enable iyzico payment gateway"
+
+msgid "Başlık"
+msgstr "Title"
+
+msgid "Ödeme sayfasında görünecek başlık"
+msgstr "Title shown to customers at checkout"
+
+msgid "Kredi Kartı ile Güvenli Ödeme"
+msgstr "Secure Credit Card Payment"
+
+msgid "Açıklama"
+msgstr "Description"
+
+msgid "Ödeme sayfasında görünecek açıklama"
+msgstr "Description shown to customers at checkout"
+
+msgid "iyzico altyapısı ile kart bilgileriniz güvende. Visa, Mastercard ve Amex ile hızlı ve güvenli ödeme yapın."
+msgstr "Your card details are safe with iyzico. Pay quickly and securely with Visa, Mastercard, and Amex."
+
+msgid "API Anahtarı"
+msgstr "API Key"
+
+msgid "iyzico API anahtarınız"
+msgstr "Your iyzico API key"
+
+msgid "Gizli Anahtar"
+msgstr "Secret Key"
+
+msgid "iyzico gizli anahtarınız"
+msgstr "Your iyzico secret key"
+
+msgid "Test Modu"
+msgstr "Sandbox Mode"
+
+msgid "Test modunu aktifleştir"
+msgstr "Enable sandbox mode"
+
+msgid "Aboneliklerim"
+msgstr "My Subscriptions"
+
+msgid "Kayıtlı Kartlarım"
+msgstr "My Saved Cards"
+
+msgid "Aktif"
+msgstr "Active"
+
+msgid "İptal Edildi"
+msgstr "Cancelled"
+
+msgid "Askıya Alındı"
+msgstr "Suspended"
+
+msgid "Süresi Doldu"
+msgstr "Expired"
+
+msgid "Askıya Al"
+msgstr "Suspend"
+
+msgid "İptal Et"
+msgstr "Cancel"
+
+msgid "Yeniden Aktifleştir"
+msgstr "Reactivate"
+
+msgid "Abonelik"
+msgstr "Subscription"
+
+msgid "Abonelik Ayarları"
+msgstr "Subscription Settings"
+
+msgid "Abonelik Periyodu"
+msgstr "Billing Period"
+
+msgid "Abonelik Süresi"
+msgstr "Subscription Length"
+
+msgid "Abonelik süresi (0 = süresiz)"
+msgstr "Subscription length (0 = unlimited)"
+
+msgid "Deneme Süresi (gün)"
+msgstr "Trial Period (days)"
+
+msgid "Ücretsiz deneme süresi (0 = deneme yok)"
+msgstr "Free trial period (0 = no trial)"
+
+msgid "Günlük"
+msgstr "Daily"
+
+msgid "Haftalık"
+msgstr "Weekly"
+
+msgid "Aylık"
+msgstr "Monthly"
+
+msgid "Yıllık"
+msgstr "Yearly"
+
+msgid "günlük"
+msgstr "daily"
+
+msgid "haftalık"
+msgstr "weekly"
+
+msgid "aylık"
+msgstr "monthly"
+
+msgid "yıllık"
+msgstr "yearly"
+
+msgid "Abonelik Başlat"
+msgstr "Start Subscription"
+
+msgid "Token bulunamadı."
+msgstr "Token not found."
+
+msgid "Sipariş bulunamadı."
+msgstr "Order not found."
+
+msgid "Kart bilgileri alınamadığı için ödeme iptal edildi."
+msgstr "Payment cancelled because card details could not be retrieved."
+
+msgid "Kart bilgileri alınamadığı için ödeme iptal edildi. Lütfen tekrar deneyiniz."
+msgstr "Payment cancelled because card details could not be retrieved. Please try again."
+
+msgid "Ödeme iptal edilemedi. Hata Kodu: %1$s, Hata: %2$s"
+msgstr "Payment could not be cancelled. Error code: %1$s, Error: %2$s"
+
+msgid "Ödeme başarısız oldu. Lütfen tekrar deneyiniz."
+msgstr "Payment failed. Please try again."
+
+msgid "İşlem sırasında bir hata oluştu: %1$s"
+msgstr "An error occurred during the transaction: %1$s"
+
+msgid "Bilinmeyen bir hata oluştu. Lütfen tekrar deneyiniz."
+msgstr "An unknown error occurred. Please try again."
+
+msgid "Ödeme başlatılamadı."
+msgstr "Could not start payment."
+
+msgid "Ödeme başlatılamadı (%1$s): %2$s"
+msgstr "Could not start payment (%1$s): %2$s"
+
+msgid "iyzico ödemesi tamamlandı. Ödeme ID: %1$s"
+msgstr "iyzico payment completed. Payment ID: %1$s"
+
+msgid "Ödeme başarıyla tamamlandı ve abonelik başlatıldı."
+msgstr "Payment completed successfully and the subscription has started."
+
+msgid "Yetkiniz yok."
+msgstr "You do not have permission."
+
+msgid "Geçersiz istek."
+msgstr "Invalid request."
+
+msgid "İşlem başarıyla tamamlandı."
+msgstr "Operation completed successfully."
+
+msgid "İşlem başarısız oldu."
+msgstr "Operation failed."
+
+msgid "Güvenlik doğrulaması başarısız."
+msgstr "Security verification failed."
+
+msgid "Bu işlem için giriş yapmalısınız."
+msgstr "You must be logged in to perform this action."
+
+msgid "Abonelik bulunamadı."
+msgstr "Subscription not found."
+
+msgid "Bu abonelik üzerinde işlem yapma yetkiniz yok."
+msgstr "You do not have permission to manage this subscription."
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid "Get help"
+msgstr "Get help"
+
+msgid "Request a feature"
+msgstr "Request a feature"
+
+msgid "Submit a bug"
+msgstr "Submit a bug"
+
+msgid "Henüz aktif aboneliğiniz bulunmamaktadır."
+msgstr "You don't have any active subscriptions yet."
+
+msgid "Ürün"
+msgstr "Product"
+
+msgid "Durum"
+msgstr "Status"
+
+msgid "Başlangıç Tarihi"
+msgstr "Start Date"
+
+msgid "Sonraki Ödeme"
+msgstr "Next Payment"
+
+msgid "Tutar"
+msgstr "Amount"
+
+msgid "İşlemler"
+msgstr "Actions"
+
+msgid "Bu işlemi gerçekleştirmek istediğinizden emin misiniz?"
+msgstr "Are you sure you want to perform this action?"
+
+msgid "Bir hata oluştu. Lütfen tekrar deneyin."
+msgstr "An error occurred. Please try again."
+
+msgid "Bu sayfayı görüntülemek için giriş yapmalısınız."
+msgstr "You must be logged in to view this page."
+
+msgid "Henüz kayıtlı kartınız bulunmamaktadır. Bir abonelik satın aldığınızda kart bilgileriniz güvenli bir şekilde saklanır."
+msgstr "You don't have any saved cards yet. When you purchase a subscription, your card details are stored securely."
+
+msgid "Ödeme sağlayıcı yapılandırması eksik. Lütfen site yöneticisi ile iletişime geçin."
+msgstr "Payment provider configuration is missing. Please contact the site administrator."
+
+msgid "Kart bilgileri alınamadı. Lütfen daha sonra tekrar deneyin."
+msgstr "Card details could not be retrieved. Please try again later."
+
+msgid "Henüz kayıtlı kartınız bulunmamaktadır."
+msgstr "You don't have any saved cards yet."
+
+msgid "Banka"
+msgstr "Bank"
+
+msgid "Kart Tipi"
+msgstr "Card Type"
+
+msgid "Son 4 Hane"
+msgstr "Last 4 Digits"
+
+msgid "Takma Ad"
+msgstr "Alias"
+
+msgid "Sil"
+msgstr "Delete"
+
+msgid "Bu kartı silmek istediğinizden emin misiniz?"
+msgstr "Are you sure you want to delete this card?"
+
+msgid "Bir hata oluştu."
+msgstr "An error occurred."
+
+msgid "Giriş yapmalısınız."
+msgstr "You must be logged in."
+
+msgid "Ödeme sağlayıcı yapılandırması eksik."
+msgstr "Payment provider configuration is missing."
+
+msgid "Bilinmeyen hata"
+msgstr "Unknown error"
+
+msgid "Kart bilgisi eksik."
+msgstr "Card information is missing."
+
+msgid "Kayıtlı kart bulunamadı."
+msgstr "No saved card found."
+
+msgid "Kart silinemedi."
+msgstr "Card could not be deleted."
+
+msgid "Kart başarıyla silindi."
+msgstr "Card deleted successfully."
+
+msgid "Kullanıcı için kayıtlı kart bulunamadı."
+msgstr "No saved card found for the user."
+
+msgid "Aboneliğiniz Oluşturuldu"
+msgstr "Your Subscription Has Been Created"
+
+msgid "Aboneliğiniz Yenilendi"
+msgstr "Your Subscription Has Been Renewed"
+
+msgid "Abonelik Ödeme Hatası"
+msgstr "Subscription Payment Error"
+
+msgid "Aboneliğiniz İptal Edildi"
+msgstr "Your Subscription Has Been Cancelled"
+
+msgid "Aboneliğiniz Askıya Alındı"
+msgstr "Your Subscription Has Been Suspended"
+
+msgid "Aboneliğiniz Yakında Sona Eriyor"
+msgstr "Your Subscription Is Expiring Soon"
+
+msgid "Merhaba %s,"
+msgstr "Hello %s,"
+
+msgid "Periyot"
+msgstr "Period"
+
+msgid "Başlangıç"
+msgstr "Start"
+
+msgid "Abonelik No"
+msgstr "Subscription No."
+
+msgid "Bizi tercih ettiğiniz için teşekkür ederiz!"
+msgstr "Thank you for choosing us!"
+
+msgid "Aboneliğinizi sürdürdüğünüz için teşekkür ederiz."
+msgstr "Thank you for continuing your subscription."
+
+msgid "Hata"
+msgstr "Error"
+
+msgid "Yeniden Deneme"
+msgstr "Retry Date"
+
+msgid "Lütfen ödeme bilgilerinizi kontrol edin ve hesap sayfanızdan güncelleyin:"
+msgstr "Please check your payment details and update them in your account:"
+
+msgid "Hesabıma Git"
+msgstr "Go to My Account"
+
+msgid "İptal Tarihi"
+msgstr "Cancellation Date"
+
+msgid "Bizi tercih ettiğiniz için teşekkür ederiz. Tekrar görüşmek dileğiyle."
+msgstr "Thank you for choosing us. We hope to see you again."
+
+msgid "Sebep"
+msgstr "Reason"
+
+msgid "%d başarısız ödeme"
+msgstr "%d failed payments"
+
+msgid "Tarih"
+msgstr "Date"
+
+msgid "Hesap sayfanızdan aboneliğinizi yeniden aktifleştirebilir veya kart bilgilerinizi güncelleyebilirsiniz:"
+msgstr "You can reactivate your subscription or update your card details from your account page:"
+
+msgid "Bitiş Tarihi"
+msgstr "End Date"
+
+msgid "Kalan Gün"
+msgstr "Days Remaining"
+
+msgid "%d gün"
+msgstr "%d days"
+
+msgid "Aboneliğinizi yenilemek veya yönetmek için hesap sayfanızı ziyaret edebilirsiniz:"
+msgstr "You can visit your account page to renew or manage your subscription:"
+
+msgid "Aboneliğimi Yönet"
+msgstr "Manage My Subscription"
+
+msgid "TC Kimlik Numarası"
+msgstr "Turkish ID Number"
+
+msgid "iyzico için TC kimlik numaranız (zorunludur)."
+msgstr "Your Turkish ID number for iyzico (required)."
+
+msgid "Lütfen geçerli bir TC kimlik numarası giriniz (11 haneli)."
+msgstr "Please enter a valid Turkish ID number (11 digits)."
+
+msgid "Eksik kart bilgileri."
+msgstr "Missing card information."
+
+msgid "Kart bilgileri geçersiz."
+msgstr "Card information is invalid."
+
+msgid "Kullanıcı bulunamadı."
+msgstr "User not found."
+
+msgid "iyzico API anahtarları yapılandırılmamış."
+msgstr "iyzico API keys are not configured."
+
+msgid "Kartlar alınamadı: %1$s"
+msgstr "Cards could not be retrieved: %1$s"
+
+msgid "Kart oluşturulamadı: %1$s"
+msgstr "Card could not be created: %1$s"
+
+msgid "Kart başarıyla oluşturuldu."
+msgstr "Card created successfully."
+
+msgid "Geçersiz kullanıcı."
+msgstr "Invalid user."
+
+msgid "Ödeme başarıyla alındı."
+msgstr "Payment successfully received."
+
+msgid "Ödeme alınamadı."
+msgstr "Payment could not be received."
+
+msgid "Abonelik oluşturuldu. Abonelik ID: %s"
+msgstr "Subscription created. Subscription ID: %s"
+
+msgid "Abonelik yenileme ödemesi başarıyla tamamlandı."
+msgstr "Subscription renewal payment completed successfully."

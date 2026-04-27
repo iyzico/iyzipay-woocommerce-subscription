@@ -1,72 +1,86 @@
-=== iyzico Subscription WooCommerce ===
-Contributors: iyzico,mehmetselim,FeyzullahDemir
-Tags: payment, ecommerce,credit card,checkout woocommerce,iyzico,wordpress ecommerce
-Tested up to: 6.0
-Stable tag: 2.0.0
-Requires at least: 4.7
-License: LGPL v3.0
-License URI: https://www.gnu.org/licenses/lgpl-3.0.en.html
+=== iyzico Subscription for WooCommerce ===
+Contributors: iyzico
+Tags: woocommerce, payments, subscription, iyzico, recurring
+Requires at least: 6.6
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 1.1.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Accept secure recurring (subscription) payments on your WooCommerce store via the iyzico payment gateway.
 
 == Description ==
-- This is a WooCommerce module developed by iyzico Integration team.
 
-- You can easily integrate iyzico WooCommerce module into your e-commerce website and start receiving payment seamlessly and securely.
-Check out some of other advantages of iyzico WooCommerce Modul from below;
+iyzico Subscription for WooCommerce lets your store charge customers on a recurring basis (daily / weekly / monthly / yearly) using iyzico's payment infrastructure. The plugin uses iyzico's hosted Checkout Form for the first payment and the stored-card (tokenization) feature for automatic renewals.
 
-- You can embed iyzico check-out form either as responsive or pop-up onto your payment screen and increase your sales conversion.
+Key features:
 
-- The module controlled by SUCURI and it is totally secure.
+* iyzico hosted Checkout Form with 3D Secure for the first payment
+* Automatic renewals using a securely stored card token
+* Customer-facing "My Subscriptions" and "My Saved Cards" account pages
+* Native WordPress List Table for the admin dashboard (filters, bulk actions, pagination)
+* Manual payment trigger for failed renewals
+* Automatic suspension after 3 failed payments; daily retry for suspended ones
+* HTML email notifications (created, renewal, failed, cancelled, suspended, expiring)
+* WooCommerce HPOS (Custom Order Tables) compatible
+* WooCommerce Blocks (Cart & Checkout) compatible
+* Guest checkout is blocked for subscription products (login/register required)
+* Turkish ID number checkout field with algorithmic validation
+* GDPR / KVKK personal data exporter and eraser
+* Multi-currency support: TRY, USD, EUR, GBP, CHF, NOK, RUB, IRR
+* Turkish and English language files included
+* Sandbox mode for testing
 
-- With the open source code, you can make easily make new developments on your website.
-
-- iyzico WooCommerce module supports SEO tools and is 100% compatible with Google.
-
-- You can test your website in Sandbox, one of the best test environments.
-
-- iyzico WooCommerce module allows you to sell with installments on your website.
-
-- After iyzico WooCommerce integration, with iyzico’s Buyer Protection feature you can offer your customers 24/7 live support as well as order tracking.
-
-- iyzico WooCommerce module is 100% compatible with WooCommerce and Wordpress systems.
-
-- After the integration you can offer manually created orders and payment support to your customers.
-
-
-Requirements
-PHP 5.4 and greater.
-cURL
-WooCommerce 3.5 requires WordPress 3.5+
-
+The plugin is independent of the WooCommerce Subscriptions premium add-on; it provides its own subscription engine.
 
 == Installation ==
-iyzico WooCommerce Plugin Download ZIP file and then Install with wordpress extension installer page
 
-Wordpress Marketplace in search "iyzico WooCommerce" and install
+1. Download the release ZIP (vendor directory included) and upload it to `wp-content/plugins/`.
+2. Activate the plugin from the WordPress Plugins page.
+3. Go to **WooCommerce > Settings > Payments > iyzico Subscription** and enter your iyzico API key and secret key.
+4. Make sure "Stored Card" feature is enabled in your iyzico merchant panel.
 
-== Screenshots ==
+For developers (cloning from GitHub):
 
-1. Settings Page
-2. iyzico Settings Page
-3. Basket Page
-4. Payment Page
-5. Order Result Page
-6. Order List Page
-7. Order Management
+`composer install --no-dev -o`
+
+== Frequently Asked Questions ==
+
+= Is the WooCommerce Subscriptions premium plugin required? =
+
+No. This plugin provides its own subscription engine.
+
+= Is guest checkout supported? =
+
+No. Subscription management requires a registered customer account. Guests are redirected to login or register on the cart and checkout pages.
+
+= How are renewals handled? =
+
+A WP-Cron event runs hourly and charges any active subscriptions whose `next_payment` date has passed, using the stored iyzico card token. We strongly recommend a real system cron for low-traffic sites.
+
+= What happens if a renewal fails? =
+
+The `failed_payments` counter increments. After 3 consecutive failures the subscription is suspended. A daily retry job attempts to re-charge suspended subscriptions for up to 5 retries.
+
+= Is 3D Secure used? =
+
+Yes for the initial payment (handled by the iyzico hosted form). Renewals use the stored token in non-3DS mode, which is allowed for stored-card recurring payments.
 
 == Changelog ==
 
-= 1.0.3 =
- * Form Class
- * On Hold
- * Bug Fixed
- * Wordpress update 6.0 Tested
-
-
-= 1.0.0 =
- * Initial Release
-
+= 1.1.0 =
+* Initial public release.
+* Stored-card based automatic renewals
+* Native WordPress admin (WP_List_Table)
+* Guest checkout blocking + login flow
+* Turkish ID number checkout validation
+* GDPR / KVKK exporter & eraser
+* Multi-currency support
+* WooCommerce HPOS / Blocks compatibility
+* Atomic refund on subscription create failure (no orphaned charges)
 
 == Upgrade Notice ==
 
-= 1.0.0 =
- * Initial Release
+= 1.1.0 =
+First public release.

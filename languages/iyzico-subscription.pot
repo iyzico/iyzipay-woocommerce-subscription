@@ -1,0 +1,530 @@
+# Copyright (C) 2025 iyzico
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: iyzico Subscription for WooCommerce 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/iyzico/iyzipay-woocommerce-subscription/issues\n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: \n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: iyzico-subscription\n"
+
+msgid "iyzico Abonelik"
+msgstr ""
+
+msgid "iyzico ile düzenli (abonelik) ödeme tahsilatı"
+msgstr ""
+
+msgid "Aktif/Pasif"
+msgstr ""
+
+msgid "iyzico ödeme geçidini aktifleştir"
+msgstr ""
+
+msgid "Başlık"
+msgstr ""
+
+msgid "Ödeme sayfasında görünecek başlık"
+msgstr ""
+
+msgid "Kredi Kartı ile Güvenli Ödeme"
+msgstr ""
+
+msgid "Açıklama"
+msgstr ""
+
+msgid "Ödeme sayfasında görünecek açıklama"
+msgstr ""
+
+msgid "iyzico altyapısı ile kart bilgileriniz güvende. Visa, Mastercard ve Amex ile hızlı ve güvenli ödeme yapın."
+msgstr ""
+
+msgid "API Anahtarı"
+msgstr ""
+
+msgid "iyzico API anahtarınız"
+msgstr ""
+
+msgid "Gizli Anahtar"
+msgstr ""
+
+msgid "iyzico gizli anahtarınız"
+msgstr ""
+
+msgid "Test Modu"
+msgstr ""
+
+msgid "Test modunu aktifleştir"
+msgstr ""
+
+msgid "Aboneliklerim"
+msgstr ""
+
+msgid "Kayıtlı Kartlarım"
+msgstr ""
+
+msgid "Aktif"
+msgstr ""
+
+msgid "İptal Edildi"
+msgstr ""
+
+msgid "Askıya Alındı"
+msgstr ""
+
+msgid "Süresi Doldu"
+msgstr ""
+
+msgid "Askıya Al"
+msgstr ""
+
+msgid "İptal Et"
+msgstr ""
+
+msgid "Yeniden Aktifleştir"
+msgstr ""
+
+msgid "Abonelik"
+msgstr ""
+
+msgid "Abonelik Ayarları"
+msgstr ""
+
+msgid "Abonelik Periyodu"
+msgstr ""
+
+msgid "Abonelik Süresi"
+msgstr ""
+
+msgid "Abonelik süresi (0 = süresiz)"
+msgstr ""
+
+msgid "Deneme Süresi (gün)"
+msgstr ""
+
+msgid "Ücretsiz deneme süresi (0 = deneme yok)"
+msgstr ""
+
+msgid "Günlük"
+msgstr ""
+
+msgid "Haftalık"
+msgstr ""
+
+msgid "Aylık"
+msgstr ""
+
+msgid "Yıllık"
+msgstr ""
+
+msgid "günlük"
+msgstr ""
+
+msgid "haftalık"
+msgstr ""
+
+msgid "aylık"
+msgstr ""
+
+msgid "yıllık"
+msgstr ""
+
+msgid "Abonelik Başlat"
+msgstr ""
+
+msgid "Token bulunamadı."
+msgstr ""
+
+msgid "Sipariş bulunamadı."
+msgstr ""
+
+msgid "Kart bilgileri alınamadığı için ödeme iptal edildi."
+msgstr ""
+
+msgid "Kart bilgileri alınamadığı için ödeme iptal edildi. Lütfen tekrar deneyiniz."
+msgstr ""
+
+msgid "Ödeme iptal edilemedi. Hata Kodu: %1$s, Hata: %2$s"
+msgstr ""
+
+msgid "Ödeme başarısız oldu. Lütfen tekrar deneyiniz."
+msgstr ""
+
+msgid "İşlem sırasında bir hata oluştu: %1$s"
+msgstr ""
+
+msgid "Bilinmeyen bir hata oluştu. Lütfen tekrar deneyiniz."
+msgstr ""
+
+msgid "Ödeme başlatılamadı."
+msgstr ""
+
+msgid "Ödeme başlatılamadı (%1$s): %2$s"
+msgstr ""
+
+msgid "iyzico ödemesi tamamlandı. Ödeme ID: %1$s"
+msgstr ""
+
+msgid "Ödeme başarıyla tamamlandı ve abonelik başlatıldı."
+msgstr ""
+
+msgid "Yetkiniz yok."
+msgstr ""
+
+msgid "Geçersiz istek."
+msgstr ""
+
+msgid "İşlem başarıyla tamamlandı."
+msgstr ""
+
+msgid "İşlem başarısız oldu."
+msgstr ""
+
+msgid "Güvenlik doğrulaması başarısız."
+msgstr ""
+
+msgid "Bu işlem için giriş yapmalısınız."
+msgstr ""
+
+msgid "Abonelik bulunamadı."
+msgstr ""
+
+msgid "Bu abonelik üzerinde işlem yapma yetkiniz yok."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Get help"
+msgstr ""
+
+msgid "Request a feature"
+msgstr ""
+
+msgid "Submit a bug"
+msgstr ""
+
+msgid "Henüz aktif aboneliğiniz bulunmamaktadır."
+msgstr ""
+
+msgid "Ürün"
+msgstr ""
+
+msgid "Durum"
+msgstr ""
+
+msgid "Başlangıç Tarihi"
+msgstr ""
+
+msgid "Sonraki Ödeme"
+msgstr ""
+
+msgid "Tutar"
+msgstr ""
+
+msgid "İşlemler"
+msgstr ""
+
+msgid "Bu işlemi gerçekleştirmek istediğinizden emin misiniz?"
+msgstr ""
+
+msgid "Bir hata oluştu. Lütfen tekrar deneyin."
+msgstr ""
+
+msgid "Bu sayfayı görüntülemek için giriş yapmalısınız."
+msgstr ""
+
+msgid "Henüz kayıtlı kartınız bulunmamaktadır. Bir abonelik satın aldığınızda kart bilgileriniz güvenli bir şekilde saklanır."
+msgstr ""
+
+msgid "Ödeme sağlayıcı yapılandırması eksik. Lütfen site yöneticisi ile iletişime geçin."
+msgstr ""
+
+msgid "Kart bilgileri alınamadı. Lütfen daha sonra tekrar deneyin."
+msgstr ""
+
+msgid "Henüz kayıtlı kartınız bulunmamaktadır."
+msgstr ""
+
+msgid "Banka"
+msgstr ""
+
+msgid "Kart Tipi"
+msgstr ""
+
+msgid "Son 4 Hane"
+msgstr ""
+
+msgid "Takma Ad"
+msgstr ""
+
+msgid "Sil"
+msgstr ""
+
+msgid "Bu kartı silmek istediğinizden emin misiniz?"
+msgstr ""
+
+msgid "Bir hata oluştu."
+msgstr ""
+
+msgid "Giriş yapmalısınız."
+msgstr ""
+
+msgid "Ödeme sağlayıcı yapılandırması eksik."
+msgstr ""
+
+msgid "Bilinmeyen hata"
+msgstr ""
+
+msgid "Kart bilgisi eksik."
+msgstr ""
+
+msgid "Kayıtlı kart bulunamadı."
+msgstr ""
+
+msgid "Kart silinemedi."
+msgstr ""
+
+msgid "Kart başarıyla silindi."
+msgstr ""
+
+msgid "Kullanıcı için kayıtlı kart bulunamadı."
+msgstr ""
+
+msgid "Aboneliğiniz Oluşturuldu"
+msgstr ""
+
+msgid "Aboneliğiniz Yenilendi"
+msgstr ""
+
+msgid "Abonelik Ödeme Hatası"
+msgstr ""
+
+msgid "Aboneliğiniz İptal Edildi"
+msgstr ""
+
+msgid "Aboneliğiniz Askıya Alındı"
+msgstr ""
+
+msgid "Aboneliğiniz Yakında Sona Eriyor"
+msgstr ""
+
+msgid "Merhaba %s,"
+msgstr ""
+
+msgid "Periyot"
+msgstr ""
+
+msgid "Başlangıç"
+msgstr ""
+
+msgid "Abonelik No"
+msgstr ""
+
+msgid "Bizi tercih ettiğiniz için teşekkür ederiz!"
+msgstr ""
+
+msgid "Aboneliğinizi sürdürdüğünüz için teşekkür ederiz."
+msgstr ""
+
+msgid "Hata"
+msgstr ""
+
+msgid "Yeniden Deneme"
+msgstr ""
+
+msgid "Lütfen ödeme bilgilerinizi kontrol edin ve hesap sayfanızdan güncelleyin:"
+msgstr ""
+
+msgid "Hesabıma Git"
+msgstr ""
+
+msgid "İptal Tarihi"
+msgstr ""
+
+msgid "Bizi tercih ettiğiniz için teşekkür ederiz. Tekrar görüşmek dileğiyle."
+msgstr ""
+
+msgid "Sebep"
+msgstr ""
+
+msgid "%d başarısız ödeme"
+msgstr ""
+
+msgid "Tarih"
+msgstr ""
+
+msgid "Hesap sayfanızdan aboneliğinizi yeniden aktifleştirebilir veya kart bilgilerinizi güncelleyebilirsiniz:"
+msgstr ""
+
+msgid "Bitiş Tarihi"
+msgstr ""
+
+msgid "Kalan Gün"
+msgstr ""
+
+msgid "%d gün"
+msgstr ""
+
+msgid "Aboneliğinizi yenilemek veya yönetmek için hesap sayfanızı ziyaret edebilirsiniz:"
+msgstr ""
+
+msgid "Aboneliğimi Yönet"
+msgstr ""
+
+msgid "TC Kimlik Numarası"
+msgstr ""
+
+msgid "iyzico için TC kimlik numaranız (zorunludur)."
+msgstr ""
+
+msgid "Lütfen geçerli bir TC kimlik numarası giriniz (11 haneli)."
+msgstr ""
+
+msgid "Eksik kart bilgileri."
+msgstr ""
+
+msgid "Kart bilgileri geçersiz."
+msgstr ""
+
+msgid "Kullanıcı bulunamadı."
+msgstr ""
+
+msgid "iyzico API anahtarları yapılandırılmamış."
+msgstr ""
+
+msgid "Kartlar alınamadı: %1$s"
+msgstr ""
+
+msgid "Kart oluşturulamadı: %1$s"
+msgstr ""
+
+msgid "Kart başarıyla oluşturuldu."
+msgstr ""
+
+msgid "Geçersiz kullanıcı."
+msgstr ""
+
+msgid "Ödeme başarıyla alındı."
+msgstr ""
+
+msgid "Ödeme alınamadı."
+msgstr ""
+
+msgid "Abonelik oluşturuldu. Abonelik ID: %s"
+msgstr ""
+
+msgid "Aboneliğin Bilgileri"
+msgstr ""
+
+msgid "Abonelik yenileme ödemesi başarıyla tamamlandı."
+msgstr ""
+
+msgid "Yeni Ürün Ekle"
+msgstr ""
+
+msgid "Filtreler"
+msgstr ""
+
+msgid "Tüm Durumlar"
+msgstr ""
+
+msgid "Müşteri ara..."
+msgstr ""
+
+msgid "Bitiş"
+msgstr ""
+
+msgid "Uygula"
+msgstr ""
+
+msgid "Toplu İşlemler"
+msgstr ""
+
+msgid "Seçili abonelik askıya alınacak. Onaylıyor musunuz?"
+msgstr ""
+
+msgid "Seçili abonelik iptal edilecek. Onaylıyor musunuz?"
+msgstr ""
+
+msgid "Seçili abonelik yeniden aktifleştirilecek. Onaylıyor musunuz?"
+msgstr ""
+
+msgid "Henüz hiç abonelik kaydı bulunmamaktadır."
+msgstr ""
+
+msgid "İlk Abonelik Ürününü Oluştur"
+msgstr ""
+
+msgid "Toplam Abonelik"
+msgstr ""
+
+msgid "Aylık Gelir"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Müşteri"
+msgstr ""
+
+msgid "Görüntüle"
+msgstr ""
+
+msgid "Askıda"
+msgstr ""
+
+msgid "Kayıtlı Kartlar"
+msgstr ""
+
+msgid "Kayıtlı kart bulunamadı."
+msgstr ""
+
+msgid "Yeni Kart Ekle"
+msgstr ""
+
+msgid "Kart Takma Adı"
+msgstr ""
+
+msgid "Kart Sahibi Adı"
+msgstr ""
+
+msgid "Kart Numarası"
+msgstr ""
+
+msgid "Son Kullanma Ayı (AA)"
+msgstr ""
+
+msgid "Son Kullanma Yılı (YYYY)"
+msgstr ""
+
+msgid "Oluştur"
+msgstr ""
+
+msgid "Kapat"
+msgstr ""
+
+msgid "Yükleniyor..."
+msgstr ""
+
+msgid "Kart başarıyla oluşturuldu."
+msgstr ""
+
+msgid "Bu sayfayı görüntülemek için JavaScript etkin olmalıdır."
+msgstr ""
+
+msgid "Abonelik Yönetimi"
+msgstr ""
+
+msgid "[%1$s] Yeni Abonelik Oluşturuldu"
+msgstr ""
+
+msgid "[%1$s] Abonelik Ödeme Hatası"
+msgstr ""
