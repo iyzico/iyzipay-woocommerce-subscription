@@ -431,12 +431,6 @@ composer install --no-dev -o
    */5 * * * * curl -s https://siteniz.com/wp-cron.php?doing_wp_cron > /dev/null
    ```
 
-### iyzico'dan TC kimlik numarası hatası
-
-Eklenti checkout sayfasında müşteriden TC kimlik numarası toplar ve algoritmik validasyon yapar. Yine de hata alıyorsanız:
-- iyzico merchant panelinizden **TC kontrol** opsiyonunu kontrol edin.
-- Müşteri profilinde `_iyzico_identity_number` user meta'sının dolu olduğunu doğrulayın.
-
 ### iyzico callback URL'si çağrılmıyor
 
 iyzico'dan gelen `callbackUrl` aşağıdaki formatta olmalıdır:
