@@ -1,0 +1,184 @@
+/**
+ * iyzico Subscription — Admin styles.
+ *
+ * Minimal, WP-native; sadece status badge'leri ve stat card'ları için.
+ * Geri kalan stiller WP core (.wrap, .postbox, .form-table, .widefat, .button) tarafından sağlanır.
+ */
+
+/* --- Status badges (WC tarzı) --- */
+.iyzico-status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    background: #f0f0f1;
+    color: #1d2327;
+    border: 1px solid #c3c4c7;
+}
+
+.iyzico-status > span {
+    margin: 0;
+}
+
+.iyzico-status-active {
+    background: #edfaef;
+    color: #00450c;
+    border-color: #00a32a;
+}
+
+.iyzico-status-pending {
+    background: #fcf9e8;
+    color: #614200;
+    border-color: #dba617;
+}
+
+.iyzico-status-suspended {
+    background: #fcf0e6;
+    color: #6e3300;
+    border-color: #d63638;
+}
+
+.iyzico-status-cancelled,
+.iyzico-status-expired {
+    background: #f0f0f1;
+    color: #50575e;
+    border-color: #8c8f94;
+}
+
+.iyzico-status-completed {
+    background: #e7f0fa;
+    color: #043959;
+    border-color: #2271b1;
+}
+
+/* --- Stat cards (üst panel) --- */
+.iyzico-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.iyzico-stat-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 16px 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.iyzico-stat-label {
+    font-size: 13px;
+    color: #50575e;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.iyzico-stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1d2327;
+}
+
+.iyzico-stat-value .woocommerce-Price-amount {
+    font-size: inherit;
+}
+
+/* --- List table tweaks --- */
+
+/* Tablo genişlik aşımında yatay kaydırma yap (mobilde sütunları kaybetme) */
+.wrap > form > .tablenav,
+.wrap > form > .wp-list-table {
+    /* Native zaten responsive — burada müdahale gerekmiyor */
+}
+
+.wp-list-table.subscriptions {
+    table-layout: auto;
+}
+
+/* Kolon genişlikleri — geniş ekranda dengeli, dar ekranda native scroll */
+.wp-list-table .column-cb {
+    width: 2.2em;
+    padding: 8px 10px;
+}
+
+.wp-list-table .column-id {
+    width: 70px;
+    white-space: nowrap;
+}
+
+.wp-list-table .column-customer {
+    width: auto;
+    min-width: 200px;
+}
+
+.wp-list-table .column-product {
+    width: auto;
+    min-width: 180px;
+}
+
+.wp-list-table .column-status {
+    width: 110px;
+    white-space: nowrap;
+}
+
+.wp-list-table .column-amount {
+    width: 110px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.wp-list-table .column-period {
+    width: 90px;
+    white-space: nowrap;
+}
+
+.wp-list-table .column-start_date,
+.wp-list-table .column-next_payment {
+    width: 130px;
+    white-space: nowrap;
+}
+
+/* No kolonu çok dar olduğu için içeriği taşmasın */
+.wp-list-table td.column-id strong {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Müşteri kolonundaki email / soluk satır */
+.wp-list-table .column-customer .description {
+    color: #646970;
+    font-size: 12px;
+    font-style: normal;
+}
+
+/* Row actions: WP zaten primary column'da gösteriyor.
+   Ek bir CSS gerekmez, ancak sıkışmasın diye min genişlik */
+.wp-list-table .column-customer .row-actions {
+    color: #50575e;
+}
+
+/* --- Detail view: Login required notice (frontend) --- */
+.iyzico-subscription-login-required {
+    border-left: 4px solid #FF6B00 !important;
+    margin-bottom: 20px;
+}
+
+/* --- Filter form --- */
+.tablenav .actions input[type="date"] {
+    height: 30px;
+    line-height: 1;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 782px) {
+    .iyzico-stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
