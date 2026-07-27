@@ -12,6 +12,6 @@ interface ProductServiceInterface
     public function saveSubscriptionProductFields(int $post_id): void;
     public function hideGeneralTabForSubscription(array $tabs): array;
     public function addSubscriptionProductJs(): void;
-    public function setSubscriptionProductClass(string $classname, string $product_type): string;
-    public function setSubscriptionProductType(string $type, int $product_id): string;
+    public function setSubscriptionProductClass($classname, $product_type);
+    public function setSubscriptionProductType($type, $product_id);
 }

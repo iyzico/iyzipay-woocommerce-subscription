@@ -174,7 +174,8 @@ class ProductService implements ProductServiceInterface
         <?php
     }
 
-    public function setSubscriptionProductClass(string $classname, string $product_type): string
+    // ponytail: no scalar type hints — WooCommerce passes false/null here (new product screen has no ID yet)
+    public function setSubscriptionProductClass($classname, $product_type)
     {
         if ($product_type === 'subscription') {
             return 'Iyzico\IyzipayWoocommerceSubscription\Product\WC_Product_Subscription';
@@ -182,10 +183,13 @@ class ProductService implements ProductServiceInterface
         return $classname;
     }
 
-    public function setSubscriptionProductType(string $type, int $product_id): string
+    public function setSubscriptionProductType($type, $product_id)
     {
-        $product_type = get_post_meta($product_id, '_product_type', true);
-        if ($product_type === 'subscription') {
+        $product_id = absint($product_id);
+        if (!$product_id) {
+            return $type;
+        }
+        if (get_post_meta($product_id, '_product_type', true) === 'subscription') {
             return 'subscription';
         }
         return $type;
